@@ -40,5 +40,5 @@ let albums = {
   },
 };
 
-collection.push(albums);
+collection.push();
 console.log(collection);
