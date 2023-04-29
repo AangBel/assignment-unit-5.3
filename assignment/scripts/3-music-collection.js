@@ -1,6 +1,6 @@
 console.log('***** Music Collection *****')
 const collection = [];
-const addToCollection = function(title, artist, yearPublished) {
+function addToCollection(title, artist, yearPublished) {
 
 }
 let firstAlbum = {
@@ -10,7 +10,7 @@ let firstAlbum = {
 };
 
 collection.push(firstAlbum);
-  console.log(collection);
+ // console.log(collection);
 
 let secondAlbum = {
     title: 'Lungs',
