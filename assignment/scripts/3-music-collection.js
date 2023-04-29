@@ -2,7 +2,8 @@ console.log('***** Music Collection *****')
 const collection = [];
 function addToCollection(title, artist, yearPublished) {
 };
-    let collectionAlbums: {
+
+let albums = {
     firstAlbum: {
         title: 'Dance Fever',
         artist: 'Florence and the Machine',
@@ -39,6 +40,7 @@ function addToCollection(title, artist, yearPublished) {
         yearPublished: 2022, 
         },
 }
+
 
 ;
 
