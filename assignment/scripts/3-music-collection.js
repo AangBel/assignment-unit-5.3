@@ -23,9 +23,9 @@ let albums = {
         },
 
     fourthAlbum: {
-        title: 'Young the Giant',
+        title: 'Mind over Matter',
         artist: 'Young the Giant',
-        yearPublished: 2011, 
+        yearPublished: 2014, 
         },
 
     fifthAlbum: {
