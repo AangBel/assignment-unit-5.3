@@ -55,8 +55,9 @@ Update the `3-music-collection.js` file to do the following:
 
   - Loop through the `collection` and add any objects with a matching artist to the array.
   //complete i think 
-  
+
   - Return the array with the matching results. If no results are found, return an empty array.
+//complete?
 
 - Test the `findByArtist` function. Make sure to test with an artist you know is in the collection, as well as an artist you know is not in your collection. Check that for artists with multiple matches, all are found.
 
