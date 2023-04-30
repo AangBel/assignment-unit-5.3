@@ -8,9 +8,9 @@ function addToCollection(title, artist, yearPublished) {
     artist: artist,
     yearPublished: yearPublished,
   })
-  return collection[collection.length -1];
+  //return collection[collection.length -1];
 
-};
+
 
   console.log(addToCollection("Dance Fever", "Florence and the Machine", "2023"));
   console.log(collection);
@@ -32,5 +32,10 @@ function addToCollection(title, artist, yearPublished) {
 
 console.log(collection);
 
-let showCollection = []
+let showCollection = [];
 console.log(collection.length);
+
+for (let i = 0; i < collection.length; i++){
+    console.log(${title}  by  ${artist}  , published in  ${yearPublished});
+}
+};
