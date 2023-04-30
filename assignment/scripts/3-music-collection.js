@@ -1,44 +1,82 @@
 console.log("***** Music Collection *****");
+
 const collection = [];
-function addToCollection(title, artist, yearPublished) {}
 
-let albums = {
-  firstAlbum: {
-    title: "Dance Fever",
-    artist: "Florence and the Machine",
-    yearPublished: 2023,
-  },
+function addToCollection(title, artist, yearPublished) {
 
-  secondAlbum: {
-    title: "Lungs",
-    artist: "Florence and the Machine",
-    yearPublished: 2009,
-  },
+    collection.push({
+        title: title,
+        artist: artist,
+        yearPublished: yearPublished,
+    });
 
-  thirdAlbum: {
-    title: "Un dia normal",
-    artist: "Juanes",
-    yearPublished: 2002,
-  },
 
-  fourthAlbum: {
-    title: "Mind over Matter",
-    artist: "Young the Giant",
-    yearPublished: 2014,
-  },
+addToCollection(
+    "Dance Fever",
+    "Florence and the Machine", 
+    "2023",
+)
 
-  fifthAlbum: {
-    title: "This is Why",
-    artist: "Paramore",
-    yearPublished: 2023,
-  },
+}//end to add to coll. 
 
-  sixthAlbum: {
-    title: "In our own sweet time",
-    artist: "Vance Joy",
-    yearPublished: 2022,
-  },
-};
+console.log(addToCollection);
 
-collection.push();
+addToCollection(
+    "Lungs",
+    "Florence and the Machine", 
+    "2009",
+)
+console.log(addToCollection);
+
+addToCollection(
+    "Dance Fever",
+    "Florence and the Machine", 
+    "2023",
+)
+console.log(addToCollection);
+
+addToCollection(
+    "Un Dia Normal",
+    "Juanes", 
+    "2002",
+)
+console.log(addToCollection);
+
+addToCollection(
+    "Mind Over Matter",
+    "Young the Giant", 
+    "2014",
+)
+console.log(addToCollection);
+
+addToCollection(
+    "This is Why",
+    "Paramore", 
+    "2023",
+)
+console.log(addToCollection);
+
+addToCollection(
+    "In our own sweet time",
+    "Vance Joy", 
+    "2022",
+)
+console.log(addToCollection);
+
+addToCollection(
+    "Un Dia Normal",
+    "Juanes", 
+    "2002",
+)
+console.log(addToCollection);
+
+}//end to addtocollection
+
+collection.addToCollection("Inour own sweet time","Vance Joy","2022");
+  
+
+  
+
 console.log(collection);
+*/
+//return collection;
