@@ -30,4 +30,7 @@ function addToCollection(title, artist, yearPublished) {
   console.log(addToCollection("In our own sweet time", "Vance Joy", "2022"));
   console.log(collection);
 
+console.log(collection);
 
+let showCollection = []
+console.log(collection.length);
