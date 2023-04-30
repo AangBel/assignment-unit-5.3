@@ -48,10 +48,17 @@ function findByArtist(artist) {
         results.push(collection[i]);
       }
     } 
-        return results = [];
+        return results;
     } 
-    //TEST
-    const foundArtists = findByArtist("Florence and the Machine");
-    console.log(foundArtists);
+    //TEST-----------------------
+    
+    // Test artist not in collection
+const notFoundArtists = findByArtist("Taylor Swift");
+console.log(notFoundArtists);
+
+
+//Test with an artist in collection
+const foundArtists2 = findByArtist("Florence and the Machine");
+console.log(foundArtists2);
   
 
