@@ -49,8 +49,9 @@ function findByArtist(artist) {
       if (collection[i].artist === artist) {
         results.push(collection[i]);
       }
-    }
-
-    return results;
+    } else {
+        return results = [];
+    } 
+    //return results;
   }
 }
