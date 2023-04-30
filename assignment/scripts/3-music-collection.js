@@ -39,8 +39,17 @@ for (let i = 0; i < collection.length; i++){
 ;
 console.log(showCollection); 
 
-function findByArtist('artist') {
-    
-    
-    });
-}
+function findByArtist(artist) {
+    let results = [];
+    function findByArtist(artist) {
+        let results = [];
+
+        for (let i = 0; i < collection.length; i++) {
+          if (collection[i].artist === artist) {
+            results.push(collection[i]);
+          }
+        }
+      
+        return results;
+      }
+    }
