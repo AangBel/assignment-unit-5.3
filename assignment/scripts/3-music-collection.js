@@ -7,10 +7,8 @@ function addToCollection(title, artist, yearPublished) {
     title: title,
     artist: artist,
     yearPublished: yearPublished,
-  })
-  //return collection[collection.length -1];
-
-
+  });
+}
 
   console.log(addToCollection("Dance Fever", "Florence and the Machine", "2023"));
   console.log(collection);
@@ -36,6 +34,13 @@ let showCollection = [];
 console.log(collection.length);
 
 for (let i = 0; i < collection.length; i++){
-    console.log(${title}  by  ${artist}  , published in  ${yearPublished});
+    console.log(`${collection[i].title}  by  ${collection[i].artist}  , published in  ${collection[i].yearPublished}`);
 }
-};
+;
+console.log(showCollection); 
+
+function findByArtist('artist') {
+    
+    
+    });
+}
