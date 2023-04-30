@@ -60,7 +60,7 @@ Update the `3-music-collection.js` file to do the following:
 //complete?
 
 - Test the `findByArtist` function. Make sure to test with an artist you know is in the collection, as well as an artist you know is not in your collection. Check that for artists with multiple matches, all are found.
-
+//complete
 > When testing your functions, write all tests in the JavaScript file!
 
 ### Stretch goals
