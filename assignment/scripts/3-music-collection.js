@@ -42,16 +42,16 @@ console.log(showCollection);
 
 function findByArtist(artist) {
   let results = [];
-  function findByArtist(artist) {
-    let results = [];
-
+ 
     for (let i = 0; i < collection.length; i++) {
       if (collection[i].artist === artist) {
         results.push(collection[i]);
       }
-    } else {
+    } 
         return results = [];
     } 
-    //return results;
-  }
-}
+    //TEST
+    const foundArtists = findByArtist("Florence and the Machine");
+    console.log(foundArtists);
+  
+
