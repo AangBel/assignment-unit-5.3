@@ -1,6 +1,7 @@
 console.log("***** Music Collection *****");
 
 const collection = [];
+console.log("console logging collection:", collection);
 
 function addToCollection(title, artist, yearPublished) {
   collection.push({
@@ -42,11 +43,10 @@ console.log(showCollection);
 
 function findByArtist(artist) {
   let results = [];
- 
     for (let i = 0; i < collection.length; i++) {
       if (collection[i].artist === artist) {
         results.push(collection[i]);
-      }
+      } 
     } 
         return results;
     } 
@@ -54,11 +54,19 @@ function findByArtist(artist) {
     
     // Test artist not in collection
 const notFoundArtists = findByArtist("Taylor Swift");
-console.log(notFoundArtists);
+console.log("looking for artist not here...", notFoundArtists);
 
 
 //Test with an artist in collection
 const foundArtists2 = findByArtist("Florence and the Machine");
-console.log(foundArtists2);
+console.log("found artists 2 test", foundArtists2);
   
+
+function search(artist='Ray Charles', year= 1957 ){
+
+console.log("running search", search);  
+console.log(collection);
+}
+
+let tracks = [];
 
