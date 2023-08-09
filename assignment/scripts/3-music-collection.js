@@ -62,10 +62,12 @@ const foundArtists2 = findByArtist("Florence and the Machine");
 console.log("found artists 2 test", foundArtists2);
   
 
-function search(artist='Ray Charles', year= 1957 ){
+function search(artistName, yearPublished){
 
 console.log("running search", search);  
 console.log(collection);
+
+//return...
 }
 
 let tracks = [];
