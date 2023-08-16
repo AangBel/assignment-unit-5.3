@@ -3,6 +3,7 @@ console.log("***** Music Collection *****");
 const collection = [];
 console.log("console logging collection:", collection);
 
+//here we create a function that ----
 function addToCollection(title, artist, yearPublished) {
   collection.push({
     title: title,
@@ -31,7 +32,21 @@ console.log(collection);
 
 console.log(collection);
 
-let showCollection = [];
+// let showCollection = [];
+
+function showCollection(array){
+  for (let i = 0; i < collection.length; i++){
+    
+  }
+//takes in array parameter
+//console.log the number of items in the array 
+//loop over the array 
+//and console.log each album's info formatted like TITLE by ARTIST, published in YEAR.
+//
+};
+
+//TODO: test showCollection function 
+
 console.log(collection.length);
 
 for (let i = 0; i < collection.length; i++) {
