@@ -43,32 +43,28 @@ console.log(showCollection);
 
 function findByArtist(artist) {
   let results = [];
-    for (let i = 0; i < collection.length; i++) {
-      if (collection[i].artist === artist) {
-        results.push(collection[i]);
-      } 
-    } 
-        return results;
-    } 
-    //TEST-----------------------
-    
-    // Test artist not in collection
+  for (let i = 0; i < collection.length; i++) {
+    if (collection[i].artist === artist) {
+      results.push(collection[i]);
+    }
+  }
+  return results;
+}
+//TEST-----------------------
+
+// Test artist not in collection
 const notFoundArtists = findByArtist("Taylor Swift");
 console.log("looking for artist not here...", notFoundArtists);
-
 
 //Test with an artist in collection
 const foundArtists2 = findByArtist("Florence and the Machine");
 console.log("found artists 2 test", foundArtists2);
-  
 
-function search(artistName, yearPublished){
+function search(artistName, yearPublished) {
+  console.log("running search", search);
+  console.log(collection);
 
-console.log("running search", search);  
-console.log(collection);
-
-//return...
+  //return...
 }
 
 let tracks = [];
-
