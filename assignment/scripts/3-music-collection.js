@@ -5,11 +5,13 @@ console.log("console logging collection:", collection);
 
 //here we create a function that ----
 function addToCollection(title, artist, yearPublished) {
-  collection.push({
+  let newAlbum = {
     title: title,
     artist: artist,
     yearPublished: yearPublished,
-  });
+  };
+  collection.push(newAlbum);
+  return newAlbum;
 }
 
 console.log(addToCollection("Dance Fever", "Florence and the Machine", "2023"));
@@ -33,28 +35,32 @@ console.log(collection);
 console.log(collection);
 
 // let showCollection = [];
+ // for (let i = 0; i < collection.length; i++){
+  //   console.log(`${collection.title} by ${collection.artist}, published in ${collection.yearPublished}`);
+  // }
+  // console.log(showCollection());
 
-function showCollection(array){
-  for (let i = 0; i < collection.length; i++){
-    
-  }
+
 //takes in array parameter
 //console.log the number of items in the array 
 //loop over the array 
 //and console.log each album's info formatted like TITLE by ARTIST, published in YEAR.
 //
-};
-
 //TODO: test showCollection function 
 
-console.log(collection.length);
+// console.log(collection.length);
 
-for (let i = 0; i < collection.length; i++) {
+function showCollection(array){
+  console.log(array.length);
+for (let i = 0; i < array.length; i++) {
   console.log(
-    `${collection[i].title}  by  ${collection[i].artist}  , published in  ${collection[i].yearPublished}`
-  );
+    `${array[i].title}  by  ${array[i].artist}  , published in  ${array[i].yearPublished}`
+  )
+} 
 }
-console.log(showCollection);
+
+// showCollection();
+// console.log(showCollection(collection));
 
 function findByArtist(artist) {
   let results = [];
